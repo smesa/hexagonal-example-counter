@@ -1,4 +1,4 @@
-import { CounterStore } from "../../domain/store/"
+import { CounterStore } from "../../domain/store"
 
 type GetCounterStore = Pick<CounterStore, 'loadInitialCounter'>;
 
